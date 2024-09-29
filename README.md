@@ -51,7 +51,3 @@
 <ul>
   <li>Utilized for image storage and delivery, specifically for handling profile picture uploads.</li>
 </ul>
-
-## License
-
-<p>This project is licensed under the <strong>MIT License</strong>.</p>
