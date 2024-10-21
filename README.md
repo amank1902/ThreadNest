@@ -1,4 +1,4 @@
-# Threads Clone
+# ThreadNest
 
 <p>A full-stack social media application inspired by Threads, built with React.js on the frontend and Node.js/Express on the backend. It provides robust features such as user authentication, profile management, and post interactions, leveraging modern web technologies and cloud-based image storage.</p>
 
