@@ -62,17 +62,14 @@
    ```bash
    git clone https://github.com/amank1902/ThreadNest.git
    
-
 2. Navigate to the project directory:
-   bash
+   ```bash
    cd ThreadNest
    
-
 3. Install dependencies:
-   bash
+   ```bash
    npm install
    
-
 4. Configure environment variables:  
    Create a `.env` file and add:  
 
@@ -84,13 +81,10 @@
    CLOUDINARY_API_KEY=your_cloudinary_api_key
    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
-   
-
 5. Start the development server:
-   bash
+   ```bash
    npm run dev
    
-
 6. Open your browser and navigate to:
-   
+   ```
    http://localhost:3000
