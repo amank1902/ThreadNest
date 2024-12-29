@@ -51,6 +51,7 @@
 <ul>
   <li>Utilized for image storage and delivery, specifically for handling profile picture uploads.</li>
 </ul>
+
 ## Installation
 
 ### Prerequisites
@@ -59,7 +60,7 @@
 ### Steps
 1. Clone the repository:
    bash
-   git clone h
+   git clone https://github.com/amank1902/ThreadNest.git
    
 
 2. Navigate to the project directory:
@@ -71,14 +72,17 @@
    bash
    npm install
    
+
 4. Configure environment variables:
    Create a .env file and add:
+   env
    PORT=your_port_number
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret_key
    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
    CLOUDINARY_API_KEY=your_cloudinary_api_key
    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+   
 
 5. Start the development server:
    bash
@@ -86,6 +90,5 @@
    
 
 6. Open your browser and navigate to:
-   
+   ```
    http://localhost:3000
-   
