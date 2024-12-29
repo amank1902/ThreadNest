@@ -59,7 +59,7 @@
 
 ### Steps
 1. Clone the repository:
-   bash
+   ```bash
    git clone https://github.com/amank1902/ThreadNest.git
    
 
