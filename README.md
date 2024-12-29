@@ -56,17 +56,16 @@
 
 ### Prerequisites
 - Node.js and npm installed.
-- Firebase project set up.
 
 ### Steps
 1. Clone the repository:
    bash
-   git clone https://github.com/your-username/sih-chatbot-ticketing.git
+   git clone https://github.com/amank1902/ThreadNest
    
 
 2. Navigate to the project directory:
    bash
-   cd sih-chatbot-ticketing
+   cd ThreadNest
    
 
 3. Install dependencies:
@@ -77,13 +76,12 @@
 4. Configure environment variables:
    Create a .env file and add:
    env
-   NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
-   NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-   NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-   NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
+   PORT=your_port_number
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+   CLOUDINARY_API_KEY=your_cloudinary_api_key
+   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
    
 
 5. Start the development server:
